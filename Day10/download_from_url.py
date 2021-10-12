@@ -12,7 +12,7 @@ DOWNLOADS_DIR = os.path.join(BASE_DIR, 'downloads')
 os.makedirs(DOWNLOADS_DIR, exist_ok=True)
 downloaded_image_path = os.path.join(DOWNLOADS_DIR, 'lake.jpg')
 
-#Get random image from given url
+#Get crater lake image from given url
 url = 'https://www.laketemperature.org/wp-content/uploads/2019/11/Crater-Lake.jpg'
 image = requests.get(url, stream=True)
 
